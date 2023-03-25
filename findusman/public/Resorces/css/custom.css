@@ -1,0 +1,42 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #0077B5;
+  }
+  
+  .linkedin:before {
+    content: "\f08c";
+  }
+  
+  .upwork:before {
+    content: "\f6c7";
+  }
+  
+  .github:before {
+    content: "\f09b";
+  }
+  
+  .fa-linkedin,
+  .fa-upwork,
+  .fa-github {
+    font-family: "FontAwesome";
+  }
+ 
+  
+  
+  
+  
+  
+  
