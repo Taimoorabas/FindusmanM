@@ -3296,7 +3296,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   right: 0;
   content: ' ';
   display: block;
-  width: 25%;
+  /* width: 25%; */
+  width: 50%;
   /* background: url(../img/home-bg3.ef171b05.jpg) top center no-repeat #bababa !important; */
   /* background-size: cover; */
 }
@@ -3339,7 +3340,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .main-section {
   /* max-width: 850px; */
-  width: 55vw;
+  width: 75vw;
   min-height: 100vh;
   max-height: 100%;
   padding: 50px;
@@ -3349,30 +3350,22 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .main-section-contact {
   /* max-width: 850px; */
-  width: 48vw;
-  min-height: 100vh;
+  /* width: 48vw; */
+  min-height: 60vh;
   max-height: 100%;
-  padding: 3em 0em 1em 3em;
   background-color: #fff;
   color: #333;
-  /* padding-left: 6em; */
-}
-.form {
-  padding-top: 1em;
 }
 
 .form-input {
-  width: 26em;
-  padding: 0.6em 1em;
-  margin: 0.4em 0em;
+  width: 23em;
   border-radius: 18px;
   border: none;
   background-color: rgb(238, 236, 236);
 }
 
 .form-input-btn {
-  padding: 0.5em 12.1em;
-  margin: 0.5em 0em;
+  width: 23em;
   border-radius: 18px;
   border: none;
   background-color: rgb(198, 85, 85);
@@ -3617,7 +3610,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   left: 0;
   right: 0;
   z-index: 1;
-  margin: 0px 16px;
+  /* margin: 0px 16px; */
   background-image: url(../img/home-bg3.ef171b05.jpg);
   background-size: cover;
   background-position: center center;
